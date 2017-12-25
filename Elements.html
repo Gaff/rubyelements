@@ -1,0 +1,26 @@
+<html>
+	<head>Elements Launcher
+
+<SCRIPT TYPE="text/javascript">
+<!--
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+   href=mylink;
+else
+   href=mylink.href;
+window.open(href, windowname, 'width=920,height=540,scrollbars=no,location=no,toolbar=no');
+return false;
+}
+//-->
+</SCRIPT>		
+	</head>
+	<body>
+		Launch elements please!
+		<A HREF="http://www.elementsthegame.com/" 
+   		onClick="return popup(this, 'notes')">my popup</A>
+
+	</body>
+</html>
